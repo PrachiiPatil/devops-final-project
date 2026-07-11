@@ -5,10 +5,10 @@ metadata:
   labels:
     app: tic-tac-toe
 spec:
-  type: NodePort        # use LoadBalancer if your cluster is on a cloud provider (EKS/GKE/AKS)
+  type: NodePort       
   selector:
     app: tic-tac-toe
   ports:
     - port: 80
       targetPort: 8080
-      nodePort: 30080    # remove this line if using LoadBalancer
+      nodePort: 30080 
