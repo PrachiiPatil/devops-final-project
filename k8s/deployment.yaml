@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tic-tac-toe
-          image: IMAGE_PLACEHOLDER   # Jenkins replaces this at deploy time
+          image: prachiip/tic-tac-toe:latest
           ports:
             - containerPort: 8080
           resources:
