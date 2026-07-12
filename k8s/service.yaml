@@ -10,5 +10,5 @@ spec:
     app: tic-tac-toe
   ports:
     - port: 80
-      targetPort: 3000
+      targetPort: 80
       nodePort: 30080 
